@@ -1,0 +1,19 @@
+{
+  "name": "MyApp",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-livereload": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jst": "latest"
+  },
+  "scripts": {
+    "grunt": "node_modules/grunt/bin/grunt",
+    "build": "node_modules/grunt/bin/grunt build",
+    "dev": "node_modules/grunt/bin/grunt dev"
+  }
+}
